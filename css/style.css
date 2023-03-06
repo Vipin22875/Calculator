@@ -9,7 +9,7 @@
     width: 750px;
     height: 700px;
     border-radius: 22px;
-    background-image: url("./img/back2.avif");
+    background-image: url("/img/back2.avif");
     background-size: cover;
     position: relative;
     top: 20px;
