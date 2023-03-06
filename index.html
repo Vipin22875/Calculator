@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="center">Welcome to Calculator</h1>
+    <p id="demo"></p>
+    <div class="container" class="center">
+        <div class="row1">
+            <button class="row1" onclick="location.reload()">AC</button>
+            <button class="row1" onclick="back()">Back</button>
+            <button onclick="number(this.innerHTML)" class="row1">%</button>
+            <button onclick="number(this.innerHTML)" class="row1">/</button>
+        </div>
+        <br>
+        <div class="row1">
+            <button onclick="number(this.innerHTML)" class="row1">7</button>
+            <button onclick="number(this.innerHTML)" class="row1">8</button>
+            <button onclick="number(this.innerHTML)" class="row1">9</button>
+            <button onclick="number(this.innerHTML)" class="row1">*</button>
+        </div>
+        <br>
+        <div class="row1">
+            <button onclick="number(this.innerHTML)" class="row1">4</button>
+            <button onclick="number(this.innerHTML)" class="row1">5</button>
+            <button onclick="number(this.innerHTML)" class="row1">6</button>
+            <button onclick="number(this.innerHTML)" class="row1">-</button>
+        </div>
+        <br>
+        <div class="row1">
+            <button onclick="number(this.innerHTML)" class="row1">1</button>
+            <button onclick="number(this.innerHTML)" class="row1">2</button>
+            <button onclick="number(this.innerHTML)" class="row1">4</button>
+            <button onclick="number(this.innerHTML)" class="row1">+</button>
+        </div>
+        <br>
+        <div class="row1">
+            <button onclick="number(this.innerHTML)" class="row1">(</button>
+            <button onclick="number(this.innerHTML)" class="row1">0</button>
+            <button onclick="number(this.innerHTML)" class="row1">)</button>
+            <!-- <button class="row1">-</button> -->
+        </div>
+        <br>
+        <button id="equal" onclick="submit()">=</button>
+    </div>
+    <footer>
+    <p class="foot">
+        Copyright &copy; Vipin <br>
+        Made with &hearts;</p>
+    </footer>
+</body>
+
+</html>
